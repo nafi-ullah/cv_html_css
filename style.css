@@ -20,7 +20,7 @@ body {
     margin-top: 1rem;
     background: white;
     box-shadow: 0px 4px 4px black;
-    display: flex;
+    
 }
 
 .box2 {
@@ -32,11 +32,13 @@ body {
     align-content: center;
 }
 
+
 .name{
     padding-left: 15%;
     font-size: 40px;
     border-color: black;
     border-width: 2px;
+    font-family: 'Courier Prime', serif;
 }
 
 .basic{
@@ -45,9 +47,52 @@ body {
     padding-left: 15%;
     font-size: large;
     display: flex;
+    font-family: 'Raleway', serif;
 }
 .line{
     width: 100%;
     height: 7px;
     background-color: black;
 }
+.phone{
+    margin-right: 8px;
+}
+.email{
+    margin-right: 8px;
+}
+.linkedin{
+    margin-right: 8px;
+}
+.github{
+    margin-right: 8px;
+}
+.left{
+    width: 40%;
+    height: 78%;
+    
+}
+.education{
+    margin-left: 30%;
+    width: 60%;
+    height: 40%;
+    background-color: blue;
+    
+}
+.skills{
+    margin-left: 30%;
+    width: 70%;
+    height: 60%;
+    
+}
+.headline{
+    margin-top: 32%;
+    margin-bottom: 10%;
+    font-weight: bold;
+    font-size: x-large;
+}
+.boldline{
+    font-weight: bold;
+    font-size: large;
+}
+
+
