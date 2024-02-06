@@ -12,7 +12,7 @@ body {
 
 .box1 {
     width: 61rem;
-    height: 1060px;
+    height: 1700px;
     /* left: 455px;
     top: 20px;
     position: absolute; */
@@ -66,33 +66,58 @@ body {
 .github{
     margin-right: 8px;
 }
+.lowerpart{
+    display: flex;
+    flex-direction: right;
+}
 .left{
     width: 40%;
     height: 78%;
+    font-family: 'Raleway', serif;
+    line-height: 1.5;
     
+}
+.right{
+    width: 60%;
+
+    font-family: 'Raleway', serif;
+    line-height: 1.5;
 }
 .education{
     margin-left: 30%;
     width: 60%;
-    height: 40%;
-    background-color: blue;
+    
     
 }
 .skills{
     margin-left: 30%;
-    width: 70%;
-    height: 60%;
+    width: 60%;
     
 }
 .headline{
     margin-top: 32%;
-    margin-bottom: 10%;
     font-weight: bold;
     font-size: x-large;
 }
 .boldline{
+    margin-top: 10%;
     font-weight: bold;
-    font-size: large;
+    
 }
+.rightsec{
+    margin-top: 12.8%;
+    margin-left:5%;
+}
+.righthead{
+    
+    font-weight: bold;
+    font-size: x-large;
+}
+.rightbold{
+    margin-top: 4%;
+    font-weight: bold;
+    
+}
+
 
 
