@@ -12,7 +12,7 @@ body {
 
 .box1 {
     width: 61rem;
-    height: 1700px;
+    height: 3000px;
     /* left: 455px;
     top: 20px;
     position: absolute; */
@@ -117,6 +117,10 @@ body {
     margin-top: 4%;
     font-weight: bold;
     
+}
+
+.awardtitle{
+    margin-top: 4%;
 }
 
 
