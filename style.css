@@ -12,7 +12,7 @@ body {
 
 .box1 {
     width: 61rem;
-    height: 3000px;
+    
     /* left: 455px;
     top: 20px;
     position: absolute; */
@@ -83,6 +83,10 @@ body {
     font-family: 'Raleway', serif;
     line-height: 1.5;
 }
+.objective{
+    margin-top: 11%;
+}
+
 .education{
     margin-left: 30%;
     width: 60%;
@@ -122,6 +126,12 @@ body {
 .awardtitle{
     margin-top: 4%;
 }
+.pricediscription{
+    margin-left: 5%;
+}
 
 
+.awardtitle hr{
+    margin-right: 10%;
+}
 
