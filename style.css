@@ -119,8 +119,24 @@ body {
 }
 .rightbold{
     margin-top: 4%;
+}
+.projectName{
     font-weight: bold;
-    
+}
+.boldlink{
+   width: 100%;
+    display: flex;
+   justify-content: space-between;
+
+}
+.sourcecode{
+    margin-right: 3%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.client{
+    margin-left: 5%;
 }
 
 .awardtitle{
@@ -134,4 +150,5 @@ body {
 .awardtitle hr{
     margin-right: 2%;
 }
+
 
