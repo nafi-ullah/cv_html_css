@@ -151,4 +151,39 @@ body {
     margin-right: 2%;
 }
 
+.imgaward ul {
+    display: inline-flex;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 4px;
+    
+}
 
+.imgaward ul li{
+    display: inline-block;
+    margin-left: 0;
+    padding-left: 0;
+    position: relative;
+    
+}
+.imgaward ul li span b{
+    color: blue;
+}
+
+
+.awardhovering ul li img{
+    visibility: hidden;
+    position:absolute;
+    bottom: 100%;
+    Left: 0;
+    z-index: 1; 
+}
+
+.awardhovering ul li:hover img{
+    visibility: visible;
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 350px;
+}
